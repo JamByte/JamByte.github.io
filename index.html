@@ -1,23 +1,13 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Mandelbrot_set</title>
-  </head>
-  <body style="text-align: center">
-    <canvas id="unity-canvas" style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/JamByte.github.io.loader.js"></script>
-    <script>
-      createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/JamByte.github.io.data",
-        frameworkUrl: "Build/JamByte.github.io.framework.js",
-        codeUrl: "Build/JamByte.github.io.wasm",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "Mandelbrot_set",
-        productVersion: "1.0",
-      });
-    </script>
-  </body>
+<html>
+<body>
+
+<h1>Press play</h1>
+
+<video controls autoplay>
+  <source src="movie.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+</body>
 </html>
